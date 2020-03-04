@@ -18,9 +18,8 @@ public class Country {
 
 
 
-	public Country(int countryID, String countryName, String continent, String capitalName, int countryPopulation) {
+	public Country(String countryName, String continent, String capitalName, int countryPopulation) {
 		super();
-		this.countryID = countryID;
 		this.countryName = countryName;
 		this.continent = continent;
 		this.capitalName = capitalName;
